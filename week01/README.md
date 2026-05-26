@@ -10,8 +10,8 @@
 
 **Checklist**:  
  - Complete all 4 parts of PyTorch 60-min Blitz, run code locally on your 4060 ✅ 
- - Watch 3Blue1Brown linalg ch 1–9 + neural network series
-    - Linear algebra ch 1-9
+ - Watch 3Blue1Brown linalg ch 1–9 + neural network series ✅
+    - Linear algebra ch 1-9 ✅
     - Neural network series ✅ 
  - Watch Karpathy micrograd video and reimplement micrograd from scratch (~200 lines) ✅ 
  - Work through Raschka Ch. 2 — text data, BPE basics, DataLoader ✅ 
