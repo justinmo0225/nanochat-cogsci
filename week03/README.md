@@ -35,4 +35,4 @@ max difference: 0.0001068115234375
 match: True
 ```
 
-![GPT-2 Architecture](architecture-diagram(1).png)
+![GPT-2 Architecture](architecture-diagram/(1).png)
