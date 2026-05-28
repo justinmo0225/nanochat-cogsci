@@ -19,3 +19,20 @@
 - README with architecture diagram and matching-output proof
 
 *Skip*: Training GPT-2 from scratch this week — that's week 4.
+
+---
+**Matching-output proof:**
+
+```bash
+124.439808 M parameters
+weights loaded successfully
+The meaning of life is not the same as the meaning of death.
+The meaning of life is not the same as the meaning of death.
+The meaning of life is not the same as the meaning of death.
+The meaning of life is not the
+weights loaded successfully
+max difference: 0.0001068115234375
+match: True
+```
+
+![GPT-2 Architecture](architecture-diagram(1).png)
