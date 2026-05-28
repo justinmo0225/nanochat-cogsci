@@ -16,7 +16,7 @@
 - Load GPT-2 pretrained weights from Hugging Face into your implementation ✅
 - Verify: same prompt → same output (within numerical tolerance) as HF reference ✅
 - Generate text from your loaded model; sanity-check it makes sense ✅
-- README with architecture diagram and matching-output proof
+- README with architecture diagram and matching-output proof ✅
 
 *Skip*: Training GPT-2 from scratch this week — that's week 4.
 
