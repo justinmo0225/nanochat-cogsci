@@ -1,14 +1,14 @@
 # Week 2: Attention end-to-end
 *Focus*: Explain attention with tensor shapes on a whiteboard cold.  
 
-**Resources**:  
+**Resources:**  
 
 - Raschka Ch. 3 — all of it
 - "Attention Is All You Need" — read section 3 carefully, skim the rest
 - Jay Alammar: The Illustrated Transformer — best intuition-builder for attention
 - Karpathy: "Let's build GPT from scratch" — first ~1 hour covers attention
 
-**Checklist**:
+**Checklist:**
 
 - Implement scaled dot-product attention from scratch (no nn.MultiheadAttention) ✅
 - Implement multi-head attention from scratch ✅
