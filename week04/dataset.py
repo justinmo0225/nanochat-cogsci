@@ -43,7 +43,7 @@ class TinyStoriesDataset(Dataset):
     # returns a pair of input (current tokens) and target (next tokens) sequences
     def __getitem__(self, idx):
         x = torch.tensor(self.tokens[idx: idx + self.block_size], dtype = torch.long)
-        y = torch.tensor(self.tokens[idx+1: idx + self.block_size + 1], dtype = torch.long)
+        y = torch.tensor(self.tokens[idx + 1: idx + self.block_size + 1], dtype = torch.long)
         return x, y
 
 train_dataset = TinyStoriesDataset(ds['train'], tokenizer, block_size = 256, cache_path = 'train_tokens.pt')
