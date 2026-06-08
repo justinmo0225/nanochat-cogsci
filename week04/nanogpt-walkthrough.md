@@ -29,7 +29,7 @@ The `DataLoader` sorts data into two categories: training and validation data. T
 It returns a pair of inputs and targets, respectively labeled `x` and `y`.  
 The input sequence is a list of the current tokens with a length of block size.  
 The target sequence is the input sequence shifted to the right by one token.
-This is done so the model know that, given a list of inputs, it should be able to predict the targets.
+This is done so the model knows that, given a list of inputs, it should be able to predict the targets.
 
 **(4) Model Architecture**
 
@@ -71,7 +71,7 @@ The probability float is the logit vector applied with softmax (meaning all logi
 
 **(7) Key Design Decisions**
 
-First: Karpathy chooses to set `wte.weight = lm_head.weight`. This is because the embedding table, `wte`, each token ID maps to a specific vector. In `lm_head` each vector maps back to a token ID. By setting those two be equal, they would be sharing the same weight matrix. Tokens that are similar should have similar embeddings. Sharing the weights would enforce consistency between the input and output representations.
+First: Karpathy chooses to set `wte.weight = lm_head.weight`. This is because the embedding table, `wte`, maps each token ID to a specific vector. In `lm_head` each vector maps back to a token ID. By setting those two to be equal, they would be sharing the same weight matrix. Tokens that are similar should have similar embeddings. Sharing the weights would enforce consistency between the input and output representations.
 
 Secondly, we use pre-norm (applying LayerNorm before each sublayer) over post-norm (applying LayerNorm after each sublayer) because it produces more stable gradients during training.
 
