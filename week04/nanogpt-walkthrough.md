@@ -24,7 +24,7 @@ Our input representation is the embedded tokens plus the positional embedding. W
 
 **(3) Dataloader**
 
-The `DataLoader` sorts data into two categories: training and validation data. The model is trained on training data, improving its model accuracy over time. We then use evalation mode to analyze the model's cross-entropy loss as we test it on previously unseen data (validation data).
+The `DataLoader` sorts data into two categories: training and validation data. The model is trained on training data, improving its model accuracy over time. We then use evaluation mode to analyze the model's cross-entropy loss as we test it on previously unseen data (validation data).
 
 It returns a pair of inputs and targets, respectively labeled `x` and `y`.  
 The input sequence is a list of the current tokens with a length of block size.  
